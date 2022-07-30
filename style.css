@@ -32,6 +32,7 @@ button {
   border: 1px solid #009578;
   border-radius: 10px;
   margin-left: auto;
+  color: white;
 }
 .TEXT {
   text-align: center;
