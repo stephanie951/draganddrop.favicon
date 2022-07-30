@@ -35,7 +35,7 @@ button {
 }
 .TEXT {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .drop-zone {
@@ -85,4 +85,12 @@ button {
   background: rgba(0, 0, 0, 0.75);
   font-size: 14px;
   text-align: center;
+}
+
+.gen {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
 }
