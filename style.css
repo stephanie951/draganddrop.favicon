@@ -34,8 +34,26 @@ header h1 {
   font-size: 24px;
   line-height: 30px;
 }
+<<<<<<< HEAD
 main {
   width: 80%;
+=======
+a {
+  padding-left: 2em;
+  text-decoration: none;
+}
+button {
+  padding: 1em 2em;
+  background-color: #009578;
+  border: 1px solid #009578;
+  border-radius: 10px;
+  margin-left: auto;
+  color: white;
+}
+.TEXT {
+  text-align: center;
+  margin-bottom: 1em;
+>>>>>>> 94cc5ca6837df17a870655dc30b88cb6049749d2
 }
 
 .drop-zone {
