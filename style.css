@@ -33,11 +33,10 @@ header h1 {
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-}
-<<<<<<< HEAD
+} 
 main {
-  width: 80%;
-=======
+width: 80%;
+}
 a {
   padding-left: 2em;
   text-decoration: none;
@@ -53,7 +52,7 @@ button {
 .TEXT {
   text-align: center;
   margin-bottom: 1em;
->>>>>>> 94cc5ca6837df17a870655dc30b88cb6049749d2
+
 }
 
 .drop-zone {
