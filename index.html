@@ -11,22 +11,19 @@
 
 <body>
     <header>
-        <h1> ICONCITY</h1>
-        <nav>
-            <a href="">Contact</a>
-            <a href="">generator</a>
-            <a href="">Converter</a>
-        </nav>
-        <button>Logout</button>
+        <h1>Upload IMAGE</h1>
     </header>
     <main>
-        <h1 class="TEXT">IMAGE TO FAVICON</h1>
         <form action="" method="post" enctype="multipart/form-data">
             <div class="drop-zone">
-                <span class="drop-zone__prompt">Drop file here or click to upload</span>
+                <span class="drop-zone__prompt">Select a JPEG file to Upload <br> Or drag and drop it here</span>
                 <input type="file" name="myFile" class="drop-zone__input">
             </div>
-            <button class="gen">Generate</button>
+            <p>Or upload from a url</p>
+            <div class="upload">
+                <input id="input_url" type="text" placeholder="Add the file URL"><br>
+                <button id="button_url">Upload</button>
+            </div>
         </form>
     </main>
     <script src="script.js"></script>

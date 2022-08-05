@@ -69,3 +69,10 @@ function updateThumbnail(dropZoneElement, file) {
     thumbnailElement.style.backgroundImage = null;
   }
 }
+
+let buttonUrl = document.getElementById("button_url");
+let inputUrl = document.getElementById("input_url");
+
+buttonUrl.addEventListener("click", () => {
+  window.open(inputUrl.value, "_blank");
+});
