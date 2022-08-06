@@ -237,6 +237,7 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: auto;
+  flex-direction: column;
   text-align: center;
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
@@ -248,6 +249,19 @@ h1 {
   border-radius: 10px;
   height: 272px;
   width: 55vw;
+}
+.drop-zone span{
+  padding-top: 20px;
+}
+.vector{
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.vec2{
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .drop-zone--over {
